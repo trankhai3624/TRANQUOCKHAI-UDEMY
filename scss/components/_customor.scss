@@ -1,0 +1,28 @@
+.customer {
+  .container {
+    .top {
+      padding-top: 2rem;
+      text-align: center;
+      p{
+        color: #686f7a;
+      }
+      a {
+        padding: 2rem;
+      }
+    }
+    .bot{
+        .btn{
+            padding: 0.5rem 2rem;
+            border-radius: 2px;
+            background-color: #ec5252;
+            font-weight: 700;
+            font-size: 0.9375rem;
+            border-color: transparent;
+            &:hover {
+              background-color: #992337;
+              border-color: transparent;
+            }
+        }
+    }
+  }
+}

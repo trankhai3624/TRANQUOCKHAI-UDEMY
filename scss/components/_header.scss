@@ -1,0 +1,58 @@
+.header{
+    background-color: #fff;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+
+  a {
+    flex-grow: 1;
+  }
+  .header__categories {
+    flex-grow: 1;
+  }
+
+  @include search();
+  form {
+    flex-grow: 5;
+
+    
+    .input-group {
+      &:focus {
+        border: 1px solid #00000026;
+      }
+    }
+  }
+}
+
+.header__right{
+    a{
+        color: #505763;
+    }
+
+    .btn-login{
+        border: 1px solid #505763;
+        margin: 0 0.5rem 0 0;
+      font-weight: 500;
+      color: #686f7a;
+        &:hover{
+          color: #29303b;
+        }
+    }
+    i{
+      // padding: 0.5rem 1rem;
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      border-radius: 50%;
+      &:hover{
+        color: #505763;
+        background-color: #53525247;
+      }
+    }
+
+
+
+}

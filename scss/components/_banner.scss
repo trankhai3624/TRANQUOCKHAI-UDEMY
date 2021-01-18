@@ -1,0 +1,35 @@
+.banner {
+  background-color: #29303b;
+  font-size: 2rem;
+  .top {
+    background: $color-background;
+    height: 7px;
+    width: 100%;
+  }
+
+  .bot {
+    .row {
+      padding: 1.5rem 0;
+      .col-md-4{
+        position: relative;
+        i{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    button {
+      padding: 0.5rem 2rem;
+      border-radius: 2px;
+      background-color: #ec5252;
+      font-weight: 700;
+      font-size: 0.9375rem;
+      border-color: transparent;
+      &:hover {
+        background-color: #992337;
+        border-color: transparent;
+      }
+    }
+  }
+}

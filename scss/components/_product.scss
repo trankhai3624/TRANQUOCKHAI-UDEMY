@@ -1,0 +1,11 @@
+.product {
+  .col-left {
+    position: relative;
+    .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  @include product;
+}

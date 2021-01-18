@@ -1,0 +1,30 @@
+.convenient {
+  background: #f2f3f5;
+
+  .row{
+      padding: 1.5rem;
+  }
+  i {
+    font-size: 2rem;
+    color: #76c5d6;
+  }
+  .item{
+      background: #ffffff;
+      border: 1px solid #e8e9eb;
+      border-radius: 2px;
+      height: 100%;
+    //   margin-right: 0.5rem;
+    padding: 1rem;
+  }
+  b {
+    font-size: 1.1875rem;
+    font-weight: 700;
+    line-height: 1.47em;
+  }
+  p {
+    color: #686f7a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+}

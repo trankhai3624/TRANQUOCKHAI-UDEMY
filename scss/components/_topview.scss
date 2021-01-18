@@ -1,0 +1,12 @@
+.topview {
+  .container {
+    .row {
+      .col {
+          img{
+              width: 100%;
+          }
+      }
+    }
+  }
+  @include product;
+}

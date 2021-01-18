@@ -1,0 +1,23 @@
+.categories {
+  b {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.33em;
+  }
+  i {
+    @include categories(600);
+  }
+  p {
+    @include categories(300);
+  }
+  .panel {
+    box-shadow: 0 0 1px 1px #14171c1a,
+      0 3px 1px 0 #14171c1a;
+      &:hover{
+        box-shadow: 0 2px 8px 2px #14171c26;
+      }
+  }
+  .row2{
+    height: 20px;
+  }
+}
